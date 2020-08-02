@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Todo</title>
+</head>
+
+<body>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAT_GkKLbmYasvYr-WDPqzfxAnIafooMzg",
+            authDomain: "fir-todos-b389e.firebaseapp.com",
+            databaseURL: "https://fir-todos-b389e.firebaseio.com",
+            projectId: "fir-todos-b389e",
+            storageBucket: "fir-todos-b389e.appspot.com",
+            messagingSenderId: "296432484338",
+            appId: "1:296432484338:web:2d28340f437895dfa6756b"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <script type="text/javascript" src="app.js" defer></script>
+</body>
+
+</html>
